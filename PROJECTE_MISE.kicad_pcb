@@ -420,7 +420,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "092f57c0-db3f-4a00-98b9-5d378406d7e3")
-		(at 130.96 77.58 180)
+		(at 128 77.62 180)
 		(descr "Through hole straight socket strip, 2x04, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 2x04 2.54mm double row")
 		(property "Reference" "LCD1"
@@ -1025,7 +1025,7 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "18a37bea-ef5f-47bb-b521-9b6bbd95f948")
-		(at 182.31 76.12)
+		(at 121.5 113)
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "J15"
@@ -1296,7 +1296,7 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "1bfb73d0-68aa-460e-bca5-e1feb3200e5e")
-		(at 171 83.5)
+		(at 141.5 119)
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "J9"
@@ -2219,7 +2219,7 @@
 			)
 		)
 		(property "Value" "conn_DFrobot"
-			(at -5.52 0.5 360)
+			(at -5.52 0.5 0)
 			(layer "F.Fab")
 			(uuid "d8793339-cc08-4c23-9238-683b4fda7ec6")
 			(effects
@@ -3656,7 +3656,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "5321439c-5f81-4abe-9f1c-123c12ea13af")
-		(at 77.27 141.19 -90)
+		(at 107 64.9125 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
@@ -3869,11 +3869,11 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "55902635-ab8b-430b-82f5-91cdb8ced415")
-		(at 139.23 74.86)
+		(at 140.14 75.73 -90)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
-			(at 1.27 -3.56 0)
+			(at 1.27 -3.56 90)
 			(layer "F.SilkS")
 			(uuid "fd729ca9-4614-41eb-a5c3-df9bafb91ede")
 			(effects
@@ -3884,7 +3884,7 @@
 			)
 		)
 		(property "Value" "BC547"
-			(at 1.27 2.79 0)
+			(at 1.27 2.79 90)
 			(layer "F.Fab")
 			(uuid "0bf8af74-669d-4c43-acf3-1e092af67dfd")
 			(effects
@@ -3895,7 +3895,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3908,7 +3908,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3921,7 +3921,7 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3971,26 +3971,6 @@
 			(uuid "e1da4caf-5883-43a6-8a44-93b9cd2521cf")
 		)
 		(fp_line
-			(start -1.46 -2.73)
-			(end -1.46 2.01)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e38f46c7-9ab5-47c8-8922-3c50cef91ba8")
-		)
-		(fp_line
-			(start -1.46 -2.73)
-			(end 4 -2.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "25a6011e-a8b7-44d7-8cfc-be76c9cf25a4")
-		)
-		(fp_line
 			(start 4 2.01)
 			(end -1.46 2.01)
 			(stroke
@@ -4009,6 +3989,26 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "cd3c6521-3241-458d-b951-00fb848ab8a2")
+		)
+		(fp_line
+			(start -1.46 -2.73)
+			(end -1.46 2.01)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e38f46c7-9ab5-47c8-8922-3c50cef91ba8")
+		)
+		(fp_line
+			(start -1.46 -2.73)
+			(end 4 -2.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "25a6011e-a8b7-44d7-8cfc-be76c9cf25a4")
 		)
 		(fp_line
 			(start -0.5 1.75)
@@ -4043,7 +4043,7 @@
 			(uuid "5ad91ec8-1596-4e17-bf62-30b7cdee7758")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 0)
+			(at 1.27 0 90)
 			(layer "F.Fab")
 			(uuid "5ee224c2-d206-4e64-9a3f-c5c61d0bc20e")
 			(effects
@@ -4054,7 +4054,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.05 1.5)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
@@ -4070,7 +4070,7 @@
 			(uuid "f366b187-3339-4f65-a014-31b6eea8ef3f")
 		)
 		(pad "2" thru_hole oval
-			(at 1.27 0)
+			(at 1.27 0 270)
 			(size 1.05 1.5)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
@@ -4086,7 +4086,7 @@
 			(uuid "c18be2b2-d2fa-4393-8299-35f562ca136b")
 		)
 		(pad "3" thru_hole oval
-			(at 2.54 0)
+			(at 2.54 0 270)
 			(size 1.05 1.5)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
@@ -4755,7 +4755,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "6a47e6b3-2d3b-4f8f-82a0-e00c40e0e43a")
-		(at 74.32 141.19 -90)
+		(at 102 64.9125 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
@@ -6899,7 +6899,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "80a0c057-4898-4972-a818-ea5df4a3785f")
-		(at 106.88 141.21 -90)
+		(at 115.5 65.45 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
@@ -7112,7 +7112,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "86a8f228-93e8-49a0-8e40-0ec5ac24df84")
-		(at 100.86 141.21 -90)
+		(at 76.5 126.05 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
@@ -7325,7 +7325,7 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "8c352e27-2f5e-4ed8-9693-bff338be78b5")
-		(at 178.96 76.12)
+		(at 136 113)
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "J11"
@@ -9150,7 +9150,7 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ab4cfb2a-5631-4714-98f1-488ac0e96b2c")
-		(at 175.61 79.17)
+		(at 131 118.5)
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "J5"
@@ -9421,7 +9421,7 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b220a829-803e-455a-9720-912a2e5d688f")
-		(at 150 79)
+		(at 136.5 119)
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "J12"
@@ -9692,7 +9692,7 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c0e68b8e-eea9-40ac-8b79-7b1e50abc047")
-		(at 178.96 82.22)
+		(at 126 118)
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "J13"
@@ -9963,7 +9963,7 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c5efce8f-a5ce-47a8-992f-90a94d97885b")
-		(at 182.31 82.22)
+		(at 121.5 118)
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "J17"
@@ -10840,7 +10840,7 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "cbb6d516-0cff-4dd7-9808-b2dd5f29dfc4")
-		(at 175.61 85.27)
+		(at 141 113)
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "J10"
@@ -11111,7 +11111,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "d1a0d2d6-815e-48ea-a578-bd3e4daf0a2e")
-		(at 120.5 74 -90)
+		(at 121 65.45 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
@@ -12022,7 +12022,7 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e3d9eca6-c427-466d-8ce8-7d7a9f9b7c0a")
-		(at 182.31 79.17)
+		(at 126.5 113)
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "J16"
@@ -12778,7 +12778,7 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "edc9a2d5-3ed6-4514-9bde-b9635d9d5db0")
-		(at 175.61 76.12)
+		(at 131 113)
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "J4"
@@ -13582,7 +13582,7 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ff348679-3ee5-4af8-af0f-ff91a2617060")
-		(at 178.96 85.27)
+		(at 125.5 122)
 		(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 1.00mm single row")
 		(property "Reference" "J14"
