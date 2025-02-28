@@ -38136,7 +38136,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 154.94 184.15 0)
 			(effects
 				(font
@@ -38879,7 +38879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LFXTAL002997Bulk"
+		(property "Footprint" "KiCad:LFXTAL002997Bulk"
 			(at 138.43 361.62 0)
 			(effects
 				(font
