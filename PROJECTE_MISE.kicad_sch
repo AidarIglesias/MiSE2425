@@ -31187,19 +31187,6 @@
 		)
 		(uuid "c64fb13e-934d-4a03-9e94-ce59aac8f352")
 	)
-	(text "PENDIENTE CALC. R's"
-		(exclude_from_sim no)
-		(at 229.616 345.694 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 194 0 0 1)
-			)
-		)
-		(uuid "cbf14ca5-f3e5-45e1-bd7e-f0012fc8d45e")
-	)
 	(text "LDRs"
 		(exclude_from_sim no)
 		(at 227.838 84.328 0)
