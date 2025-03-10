@@ -4572,6 +4572,12 @@
 		(uuid "7afba7c9-5e25-4f24-8b79-6bbcbfa4307c")
 	)
 	(junction
+		(at 212.09 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b32d3ad-1029-4077-adde-01d601bc3ddb")
+	)
+	(junction
 		(at 382.27 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4684,10 +4690,6 @@
 		(uuid "0945b354-6696-42f2-9f6a-3434c9f9ff73")
 	)
 	(no_connect
-		(at 237.49 106.68)
-		(uuid "241165e5-2e6d-4c2a-b46c-f209a545cbb3")
-	)
-	(no_connect
 		(at 389.89 232.41)
 		(uuid "2cc4b001-9680-4b83-9497-fc8082c17b7f")
 	)
@@ -4762,10 +4764,6 @@
 	(no_connect
 		(at 265.43 293.37)
 		(uuid "b1460885-aca6-4081-b2dc-7e98c46c26fc")
-	)
-	(no_connect
-		(at 212.09 106.68)
-		(uuid "b55f9b2e-b1f5-4b2f-9c0a-bed6b2ee74ad")
 	)
 	(no_connect
 		(at 260.35 168.91)
@@ -5319,6 +5317,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 106.68) (xy 237.49 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e771301-9a49-4ee6-b673-90d876ac687a")
+	)
+	(wire
+		(pts
 			(xy 173.99 207.01) (xy 194.31 207.01)
 		)
 		(stroke
@@ -5839,7 +5847,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 105.41) (xy 217.17 105.41)
+			(xy 201.93 105.41) (xy 212.09 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6259,6 +6267,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 105.41) (xy 212.09 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b1c847-9d18-4d6a-8e0e-13827f484a23")
+	)
+	(wire
+		(pts
 			(xy 140.97 185.42) (xy 166.37 185.42)
 		)
 		(stroke
@@ -6306,6 +6324,16 @@
 			(type default)
 		)
 		(uuid "acd096fc-6223-4d57-8d18-0aff1f59d2a1")
+	)
+	(wire
+		(pts
+			(xy 237.49 105.41) (xy 242.57 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9ea8af-5137-4e9a-8143-a74f952cc67c")
 	)
 	(wire
 		(pts
@@ -6376,6 +6404,16 @@
 			(type default)
 		)
 		(uuid "b701b947-dfcf-4a1e-b7ff-fd7604579d20")
+	)
+	(wire
+		(pts
+			(xy 212.09 105.41) (xy 217.17 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a4cef3-fd3a-4093-8081-759255bd0300")
 	)
 	(wire
 		(pts
@@ -36606,7 +36644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KiCad:LFXTAL002997Bulk"
+		(property "Footprint" "KiCad:LFXTAL002997Bulk_modificat"
 			(at 138.43 361.62 0)
 			(effects
 				(font
