@@ -4458,6 +4458,12 @@
 		(uuid "1603c38b-8ea0-4989-899e-1c7076f319d7")
 	)
 	(junction
+		(at 260.35 303.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22db73b4-2e5c-4636-a2ae-3733935d42a4")
+	)
+	(junction
 		(at 415.29 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4588,6 +4594,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9344a70f-ef95-4f4b-947d-71dcffde6a7a")
+	)
+	(junction
+		(at 257.81 299.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "987bed11-ab60-4a77-b207-485403ac2d5a")
 	)
 	(junction
 		(at 326.39 134.62)
@@ -5947,7 +5959,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 293.37) (xy 260.35 340.36)
+			(xy 260.35 293.37) (xy 260.35 303.53)
 		)
 		(stroke
 			(width 0)
@@ -6017,6 +6029,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 303.53) (xy 260.35 303.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d238a07-a892-493d-acc2-efc12e3f45f8")
+	)
+	(wire
+		(pts
 			(xy 212.09 93.98) (xy 224.79 93.98)
 		)
 		(stroke
@@ -6034,6 +6056,16 @@
 			(type default)
 		)
 		(uuid "8e421f5f-5cde-4a4f-ae3f-941f5ee46af3")
+	)
+	(wire
+		(pts
+			(xy 251.46 299.72) (xy 257.81 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4b984c-cd2d-491b-9309-455c7bd22910")
 	)
 	(wire
 		(pts
@@ -6137,7 +6169,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 293.37) (xy 257.81 337.82)
+			(xy 257.81 293.37) (xy 257.81 299.72)
 		)
 		(stroke
 			(width 0)
@@ -6284,6 +6316,16 @@
 			(type default)
 		)
 		(uuid "a717fc27-d269-4034-93e3-9806c9526b2c")
+	)
+	(wire
+		(pts
+			(xy 260.35 303.53) (xy 260.35 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7556854-1c2a-4647-a719-c20d9aa238e9")
 	)
 	(wire
 		(pts
@@ -6544,6 +6586,16 @@
 			(type default)
 		)
 		(uuid "c6b0b67d-e5e8-4d7e-bb05-8a6d42bb2243")
+	)
+	(wire
+		(pts
+			(xy 257.81 299.72) (xy 257.81 337.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e32cdc-30f9-4c11-8bc7-29c3c3ac1cc0")
 	)
 	(wire
 		(pts
@@ -6824,6 +6876,16 @@
 			(type default)
 		)
 		(uuid "e73c8070-f7d0-4be8-b034-1fdf0ab8735f")
+	)
+	(wire
+		(pts
+			(xy 251.46 307.34) (xy 255.27 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f6571c-1190-4e49-9458-0d8cb6a37650")
 	)
 	(wire
 		(pts
@@ -32768,6 +32830,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 246.38 307.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "401295d9-76ae-4f45-8272-7c1c6de97d47")
+		(property "Reference" "J10"
+			(at 244.348 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 244.348 309.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 246.38 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 246.38 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2374f11c-e9d6-42ce-99a3-81804ef34378")
+		)
+		(instances
+			(project "PROJECTE_MISE"
+				(path "/2ce3dfc3-2620-4194-b98c-290dfb7c6429"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LMV324")
 		(at 308.61 132.08 0)
 		(mirror y)
@@ -33265,6 +33391,136 @@
 			(project ""
 				(path "/2ce3dfc3-2620-4194-b98c-290dfb7c6429"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 246.38 299.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58a346f7-7dd7-4149-bdd6-7606a0f49cca")
+		(property "Reference" "J8"
+			(at 244.094 297.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SCL_TP"
+			(at 242.824 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 246.38 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 246.38 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff81bf19-77a9-4d50-8831-0b9e39d0c814")
+		)
+		(instances
+			(project ""
+				(path "/2ce3dfc3-2620-4194-b98c-290dfb7c6429"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 255.27 307.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b0d3ae6-c263-48aa-9bdd-8d8b07ebc2f5")
+		(property "Reference" "#PWR28"
+			(at 255.27 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f03440f2-1fb6-4b9b-8991-cbc6be7f3e50")
+		)
+		(instances
+			(project ""
+				(path "/2ce3dfc3-2620-4194-b98c-290dfb7c6429"
+					(reference "#PWR28")
 					(unit 1)
 				)
 			)
@@ -34767,6 +35023,70 @@
 			(project ""
 				(path "/2ce3dfc3-2620-4194-b98c-290dfb7c6429"
 					(reference "#PWR22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 246.38 303.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7b29119-3784-4bdc-9557-7ffdf07ce2d7")
+		(property "Reference" "J9"
+			(at 244.348 302.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SDA_TP"
+			(at 242.57 303.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
+			(at 246.38 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 246.38 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f0e9445-5bf1-4797-8f98-c65c241d0baa")
+		)
+		(instances
+			(project "PROJECTE_MISE"
+				(path "/2ce3dfc3-2620-4194-b98c-290dfb7c6429"
+					(reference "J9")
 					(unit 1)
 				)
 			)
