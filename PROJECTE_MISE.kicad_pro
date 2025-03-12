@@ -593,11 +593,11 @@
         "pattern": "/~{RST_{LCD}}"
       },
       {
-        "netclass": "Default",
+        "netclass": "Signal",
         "pattern": "/XT1IN"
       },
       {
-        "netclass": "Default",
+        "netclass": "Signal",
         "pattern": "/XT1OUT"
       },
       {
@@ -671,6 +671,10 @@
       {
         "netclass": "Signal",
         "pattern": "/AO2"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/LED_PS"
       }
     ]
   },
