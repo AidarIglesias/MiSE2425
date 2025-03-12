@@ -6,7 +6,8 @@
 	(paper "A2")
 	(title_block
 		(title "Projecte Robot MISE 2024-25")
-		(rev "25/02/25")
+		(date "2025-03-12")
+		(rev "12/03/25")
 		(company "David García - Aidar Iglesias")
 	)
 	(lib_symbols
@@ -31154,6 +31155,18 @@
 			)
 		)
 		(uuid "21a461f7-f7aa-4c77-8027-6ccd56643082")
+	)
+	(text "PROJECTE ROBOT MISE 2024-25"
+		(exclude_from_sim no)
+		(at 314.452 26.162 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+			)
+		)
+		(uuid "30198693-6f94-4897-be6d-03a2a980ccf2")
 	)
 	(text "MÒDUL UART/WIFI"
 		(exclude_from_sim no)
