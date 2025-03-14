@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.9-8.0.9-0~ubuntu22.04.1"
     },
-    "CreationDate": "2025-03-11T13:18:43+01:00"
+    "CreationDate": "2025-03-14T09:47:16+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "PROJECTE_MISE",
       "GUID": "50524f4a-4543-4544-955f-4d4953452e6b",
-      "Revision": "rev?"
+      "Revision": "12/03/25"
     },
     "Size": {
       "X": 75.05,

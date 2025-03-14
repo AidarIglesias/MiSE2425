@@ -33058,7 +33058,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "110R"
 			(at 336.55 365.76 90)
 			(effects
 				(font
